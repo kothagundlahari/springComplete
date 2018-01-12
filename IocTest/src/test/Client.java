@@ -13,6 +13,8 @@ public class Client {
         BeanFactory factory = new XmlBeanFactory((org.springframework.core.io.Resource) resource);
 
         factory.getBean("t");
+        factory.getBean("t");
+        factory.getBean("t");
 
 
 
