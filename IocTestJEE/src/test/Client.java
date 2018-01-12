@@ -13,6 +13,9 @@ public class Client {
 
         ApplicationContext ap = new ClassPathXmlApplicationContext("resource/spring.xml");
 
+        ap.getBean("t");
+
+
 
 
 
