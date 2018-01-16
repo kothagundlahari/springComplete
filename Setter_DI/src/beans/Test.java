@@ -20,8 +20,9 @@ public class Test {
 
     public void printData() {
         System.out.println("age:" +age);
-        System.out.println("eid:" +eid);
         System.out.println("name:" +name);
+        System.out.println("eid:" +eid);
+
     }
 }
 
