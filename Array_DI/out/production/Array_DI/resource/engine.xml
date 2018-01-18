@@ -1,0 +1,21 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="e1" class="beans.Engine">
+        <property name="eModleYear">
+           <value> e1</value>
+        </property>
+    </bean>
+    <bean id="e2" class="beans.Engine">
+        <property name="eModleYear">
+           <value> e2</value>
+        </property>
+    </bean>
+    <bean id="e3" class="beans.Engine">
+        <property name="eModleYear">
+           <value> e3</value>
+        </property>
+    </bean>
+
+</beans>
