@@ -4,7 +4,10 @@
     <bean id="engine" class="beans.Engine"  >
         <property name="modelYear" value="2018"></property>
     </bean>
+    <bean id="e1" class="beans.Engine"  autowire-candidate="false" >
+        <property name="modelYear" value="2018"></property>
+    </bean>
 
-    <bean id="car" class="beans.Car" autowire="byName"></bean>
+    <bean id="car" class="beans.Car" autowire="byType"></bean>
 
 </beans>
