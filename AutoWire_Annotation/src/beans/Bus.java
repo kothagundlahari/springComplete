@@ -1,4 +1,12 @@
 package beans;
 
-public class Bus {
+public class Bus  {
+
+    private Engine engine;
+
+    public void printData(){
+        System.out.println(" Bus engine " + engine.getModelYear());
+    }
+
+
 }
